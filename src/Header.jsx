@@ -82,64 +82,64 @@ function Header() {
                             <div className="pmd-content custom-pmd-content" id="content">
                                 <h2 className="headline">Sidebar Constructor</h2>
                             </div>
-                            </section>
+                        </section>
 
-
-                            </div>
-
-                            {/* ====================================side bar ends================================================== */}
-
-
-
-
-
-                            <img className='headimg1' src="https://brandlogos.net/wp-content/uploads/2022/03/myntra-logo-brandlogos.net_.png" alt="" />
-
-                            <div className='d-flex header' style={{ position: "fixed top", width: "100%" }}>
-
-                                <p className='headp1'>MEN</p>
-                                <p className='headp1'>WOMAN</p>
-                                <p className='headp1'>KIDS</p>
-                                <p className='headp1'>HOME & LIVING</p>
-                                <p className='headp1'>BEAUTY</p>
-                                <p className='headp1'>STUDIO</p>
-                                {/* ===================================== */}
-                                <div className='mt-3 d-flex ' style={{ width: "45%", height: "8vh" }}>
-
-
-                                    <div className='w-25 mx-3  w-75'>
-                                        <input type="search" className='form-control' placeholder='Search for products,brands and more' />
-                                    </div>
-
-                                    <div className=' mx-3'>
-                                        <span className="material-symbols-outlined mx-2">
-                                            person
-                                        </span>
-                                        <p className='fs-6'>Profile</p>
-                                    </div>
-
-                                    <div className='  mx-3'>
-                                        <span className="material-symbols-outlined mx-2">
-                                            favorite
-                                        </span>
-                                        <p className='fs-6'>Wishlist</p>
-                                    </div>
-
-                                    <div className=' mx-3'>
-                                        <span className="material-symbols-outlined ">
-                                            shopping_bag
-                                        </span>
-                                        <p className='fs-6'>Bag</p>
-                                    </div>
-
-                                </div>
-                                {/* ============================== */}
-
-                            </div>
-
-                            {/* ========================== */}
 
                     </div>
+
+                    {/* ====================================side bar ends================================================== */}
+
+
+
+
+
+                    <img className='headimg1' src="https://brandlogos.net/wp-content/uploads/2022/03/myntra-logo-brandlogos.net_.png" alt="" />
+
+                    <div className='d-flex header' style={{ position: "fixed top", width: "100%" }}>
+
+                        <p className='headp1'>MEN</p>
+                        <p className='headp1'>WOMAN</p>
+                        <p className='headp1'>KIDS</p>
+                        <p className='headp1'>HOME & LIVING</p>
+                        <p className='headp1'>BEAUTY</p>
+                        <p className='headp1'>STUDIO</p>
+                        {/* ===================================== */}
+                        <div className='mt-3 d-flex ' style={{ width: "45%", height: "8vh" }}>
+
+
+                            <div className='w-25 mx-3  w-75'>
+                                <input type="search" className='form-control' placeholder='Search for products,brands and more' />
+                            </div>
+
+                            <div className=' mx-3'>
+                                <span className="material-symbols-outlined mx-2">
+                                    person
+                                </span>
+                                <p className='fs-6'>Profile</p>
+                            </div>
+
+                            <div className='  mx-3'>
+                                <span className="material-symbols-outlined mx-2">
+                                    favorite
+                                </span>
+                                <p className='fs-6'>Wishlist</p>
+                            </div>
+
+                            <div className=' mx-3'>
+                                <span className="material-symbols-outlined ">
+                                    shopping_bag
+                                </span>
+                                <p className='fs-6'>Bag</p>
+                            </div>
+
+                        </div>
+                        {/* ============================== */}
+
+                    </div>
+
+                    {/* ========================== */}
+
+                </div>
 
             </section>
 
