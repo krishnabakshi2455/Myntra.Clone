@@ -1,0 +1,14 @@
+.headp1{
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-left: 3%;
+    margin-top: 1.5%;
+} 
+.headimg1{
+width: 4vw;
+ margin-left: 1rem;
+}
+.sidebar{
+    display: none;
+    visibility: hidden;
+}

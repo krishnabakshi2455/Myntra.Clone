@@ -1,0 +1,14 @@
+@media (max-width:320px) {
+    .header {
+        display: none;
+        visibility: hidden;
+    }
+    .headimg1{
+        width: 15vw;
+        height: 10vh;
+    }
+    .sidebar{
+        display: block;
+        visibility: visible;
+    }
+}
