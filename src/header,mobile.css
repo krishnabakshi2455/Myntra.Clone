@@ -1,14 +1,26 @@
-@media (max-width:320px) {
+@media (max-width:430px) {
     .header {
         display: none;
         visibility: hidden;
     }
-    .headimg1{
-        width: 15vw;
+
+    .section-header {
+        max-width: 100%;
+        text-align: center;
         height: 10vh;
     }
-    .sidebar{
+
+    .headimg1 {
+        display: none;
+        visibility: hidden;
+    }
+
+    .sidebar {
+        margin-top: 3%;
         display: block;
         visibility: visible;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 }

@@ -1,131 +1,711 @@
 import React from 'react'
 import "./header.css"
 import "./header,mobile.css"
+
 function Header() {
     return (
         <>
 
-            <section>
+            <section className='section-header' >
 
-                <div className='d-flex ' style={{ boxShadow: "3px 3px 8px grey", position: "fixed top", width: "100%" }}>
+                {/* ==============================side bar start=================================================== */}
 
-                    {/* ==============================side bar start=================================================== */}
-                    <div className='sidebar'>
-                        <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark pmd-navbar pmd-z-depth">
-                            <a href="javascript:void(0);" data-target="basicSidebar" data-placement="left" className="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect pmd-sidebar-toggle"><i className="material-icons md-light">menu</i></a>
-                            <a className="navbar-brand" href="#">Brand</a>
-
-                            <div className="pmd-navbar-right-icon ml-auto">
-                                <a href="javascript:void(0);" className="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect"><i className="material-icons pmd-sm md-light">search</i></a>
-                            </div>
-                        </nav>
-
-                        <section id="pmd-main">
-
-
-                            <aside id="basicSidebar" className="pmd-sidebar bg-light pmd-z-depth" role="navigation">
-                                <ul className="nav flex-column pmd-sidebar-nav">
-                                    <li className="nav-item pmd-user-info">
-                                        <a data-toggle="collapse" href="#collapseExample" className="nav-link btn-user media align-items-center">
-                                            <img className="mr-3" src="https://pro.propeller.in/assets/images/avatar-icon-40x40.png" width="40" height="40" alt="avatar" />
-                                            <div className="media-body">
-                                                User
-                                            </div>
-                                            <i className="material-icons md-light ml-2 pmd-sm">more_vert</i>
-                                        </a>
-                                        <ul className="collapse" id="collapseExample" data-parent="#basicSidebar">
-                                            <li className="nav-item">
-                                                <a className="nav-link" href="#">
-                                                    <i className="material-icons pmd-list-icon pmd-sm">delete</i>
-                                                    <span className="media-body">View Profile</span>
-                                                </a>
-                                            </li>
-                                            <li className="nav-item">
-                                                <a className="nav-link" href="#">
-                                                    <i className="material-icons pmd-list-icon pmd-sm">delete</i>
-                                                    <span className="media-body">Settings</span>
-                                                </a>
-                                            </li>
-                                            <li className="nav-item">
-                                                <a className="nav-link" href="#">
-                                                    <i className="material-icons pmd-list-icon pmd-sm">delete</i>
-                                                    <span className="media-body">Logout</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link active" href="#">
-                                            <i className="material-icons pmd-list-icon pmd-sm">star</i>
-                                            <span className="media-body">Stared</span>
-                                        </a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="#">
-                                            <i className="material-icons pmd-list-icon pmd-sm">send</i>
-                                            <span className="media-body">Sent Email</span>
-                                        </a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="#">
-                                            <i className="material-icons pmd-list-icon pmd-sm">drafts</i>
-                                            <span className="media-body">Drafts</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </aside>
-
-
-                            <div className="pmd-sidebar-overlay"></div>
-
-
-                            <div className="pmd-content custom-pmd-content" id="content">
-                                <h2 className="headline">Sidebar Constructor</h2>
-                            </div>
-                        </section>
-
-
+                <div className='sidebar'>
+                    <div className='d-flex align-item-center'>
+                        <i className='bx bx-menu fs-1 mx-3' ></i>
+                        <h1 className='headp1 fs-4 mx-1'>Myntra</h1>
                     </div>
 
-                    {/* ====================================side bar ends================================================== */}
+
+                    <div className='heade1icon d-flex align-items-center mx-4'>
+                        <i className='bx bx-search-alt-2 fs-4'></i>
 
 
+                        <span className="material-symbols-outlined mx-2">
+                            favorite
+                        </span>
+
+                        <span className="material-symbols-outlined ">
+                            shopping_bag
+                        </span>
+                    </div>
+                </div>
+                {/* ====================================side bar ends================================================== */}
+
+
+                <div className='d-flex align-item-center'>
 
 
 
                     <img className='headimg1' src="https://brandlogos.net/wp-content/uploads/2022/03/myntra-logo-brandlogos.net_.png" alt="" />
 
-                    <div className='d-flex header' style={{ position: "fixed top", width: "100%" }}>
+                    <div className='d-flex header align-items-center w-100' >
 
-                        <p className='headp1'>MEN</p>
-                        <p className='headp1'>WOMAN</p>
-                        <p className='headp1'>KIDS</p>
-                        <p className='headp1'>HOME & LIVING</p>
-                        <p className='headp1'>BEAUTY</p>
-                        <p className='headp1'>STUDIO</p>
+                        <div className=' divp1'>
+                            {/* ============================ul men list starts======================================== */}
+                            <ul className='ul-Men' >
+                                <li className='headp1 mt-4' >MEN</li>
+                                <li className='bot-line'></li>
+
+                                <ul className="ul-Men-list" style={{ marginLeft: "-1.9rem" }}>
+                                    <section className='Men-wear-sec'>
+
+
+                                        <div className='top-wear-div'>
+                                            <ul className='sub-men-list'>
+                                                <li style={{ color: "rgb(248, 2, 84)", fontWeight: "500", marginBottom: "5px" }}>Topwear</li>
+                                                <li className="men-products">T-shirts</li>
+                                                <li className="men-products">Casual Shirts</li>
+                                                <li className="men-products">Formal Shirts</li>
+                                                <li className="men-products">Sweatshirts</li>
+                                                <li className='men-products'>Sweaters</li>
+                                                <li className="men-products">Jackets</li>
+                                                <li className="men-products">Blazers & Coats</li>
+                                                <li className="men-products">Suits</li>
+                                                <li className="men-products">Rain Jackets</li>
+                                            </ul>
+                                            {/* ==========================top wear ends======================== */}
+
+                                            {/* =============================Indian & festive wear starts======================= */}
+                                            <ul className='sub-men-list'>
+                                                <li style={{ color: "rgb(248, 2, 84)", fontWeight: "500", marginBottom: "5px", marginTop: "2rem" }}>Indian & Festive Wear</li>
+                                                <li className="men-products">Kurta & Kurta Sets</li>
+                                                <li className="men-products">Sherwanis</li>
+                                                <li className="men-products">Nehru Jackets</li>
+                                                <li className="men-products">Dhotis</li>
+                                            </ul>
+                                        </div>
+
+                                        {/* =============================Indian & festive wear ends======================= */}
+
+                                        {/* ==================================Bottom wear starts=================================== */}
+                                        <div className="Bottom-wear-div">
+                                            <ul className='sub-men-list2'>
+                                                <li style={{ color: "rgb(248, 2, 84)", fontWeight: "500", marginBottom: "5px" }}>Bottomwear</li>
+                                                <li className="men-products">Jeans</li>
+                                                <li className="men-products">Casual Trouser</li>
+                                                <li className="men-products">Formal Trouser</li>
+                                                <li className="men-products">Shorts</li>
+                                                <li className="men-products">Track Pants & Joggers</li>
+                                            </ul>
+
+                                            <ul className='sub-men-list2'>
+                                                <li style={{ color: "rgb(248, 2, 84)", fontWeight: "500", marginBottom: "5px", marginTop: "2rem" }}><a href="" style={{ color: "rgb(248, 2, 84)", fontWeight: "500", textDecoration: "none" }}>Innerwear & Sleepwear </a></li>
+                                                <li className="men-products">
+                                                    <a href="" style={{ color: "black", textDecoration: "none" }}>
+                                                        Brief & Trunks
+                                                    </a>
+                                                </li>
+
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Boxers</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Vests</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Sleepwear & Loungwear</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Thermals</a></li>
+                                            </ul>
+
+                                            <ul className='sub-men-list2'>
+                                                <li style={{ color: "rgb(248, 2, 84)", fontWeight: "500", marginBottom: "2rem", marginTop: "1rem" }}>
+                                                    <a href=" " style={{ color: "rgb(248, 2, 84)", fontWeight: "500", textDecoration: "none" }}>Plus Size</a>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+
+
+                                        {/* ==================================Bottom wear ends=================================== */}
+
+
+                                        {/* ======================================footewear starts========================================== */}
+
+
+                                        <div className="Bottom-wear-div">
+
+                                            <ul className='sub-men-list2'>
+                                                <li style={{ color: "rgb(248, 2, 84)", fontWeight: "500", marginBottom: "5px" }}><a href="" style={{ color: "rgb(248, 2, 84)", fontWeight: "500", textDecoration: "none" }}>Footerwear </a></li>
+                                                <li className="men-products">
+                                                    <a href="" style={{ color: "black", textDecoration: "none" }}>
+                                                        Casual Shoes
+                                                    </a>
+                                                </li>
+
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Sports Shoes</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Formula hoes</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Sneakers</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Sandals & Floaters</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Flip Flops</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Socks</a></li>
+                                            </ul>
+
+                                            <ul className='sub-men-list2'>
+                                                <li style={{ color: "rgb(248, 2, 84)", fontWeight: "500", marginBottom: "2rem", marginTop: "1rem" }}>
+                                                    <a href=" " style={{ color: "rgb(248, 2, 84)", fontWeight: "500", textDecoration: "none" }}>Personal Cards & Grooming</a>
+                                                </li>
+                                            </ul>
+
+                                            <ul className='sub-men-list2'>
+                                                <li style={{ color: "rgb(248, 2, 84)", fontWeight: "500", marginBottom: "2rem" }}>
+                                                    <a href=" " style={{ color: "rgb(248, 2, 84)", fontWeight: "500", textDecoration: "none" }}>Sunglasses & Frames</a>
+                                                </li>
+                                            </ul>
+
+                                            <ul className='sub-men-list2'>
+                                                <li style={{ color: "rgb(248, 2, 84)", fontWeight: "500", marginBottom: "3.3rem", }}>
+                                                    <a href=" " style={{ color: "rgb(248, 2, 84)", fontWeight: "500", textDecoration: "none" }}>Watches</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        {/* ======================================footewear ends========================================== */}
+
+                                        {/* ==========================================sports and gadgets============================================ */}
+                                        <div className="Bottom-wear-div">
+
+
+                                            <ul className='sub-men-list2'>
+                                                <li style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-2' style={{ fontWeight: "500", textDecoration: "none" }}>Sports & Active Wear </a></li>
+                                                <li className="men-products">
+                                                    <a href="" style={{ color: "black", textDecoration: "none" }}>
+                                                        Sposts Shoes
+                                                    </a>
+                                                </li>
+
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Sposts Shoes</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Sports Sandals</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Track Pants & Shorts</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Tracksuits</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Jackets & Sweatshirts</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Sports Accsssones</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Swimwear</a></li>
+                                            </ul>
+
+                                            {/* =====================================Gadgets=============================================== */}
+                                            <ul className='sub-men-list2'>
+                                                <li style={{ fontWeight: "500", marginBottom: "5px", marginTop: "3.5rem" }}><a href="" className='head-topic-2' style={{ fontWeight: "500", textDecoration: "none" }}>Gadgets</a></li>
+                                                <li className="men-products">
+                                                    <a href="" style={{ color: "black", textDecoration: "none" }}>
+                                                        Smart Wearables
+                                                    </a>
+                                                </li>
+
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Fitness Gadgets</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Headphones</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Speakers</a></li>
+                                            </ul>
+
+                                        </div>
+
+
+                                        {/* ==========================================sports and gadgets============================================ */}
+
+                                        {/* ==========================================fashion Accsssories starts=========================================== */}
+                                        <div className="Bottom-wear-div">
+
+                                            <ul className='sub-men-list2'>
+                                                <li style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-2' style={{ fontWeight: "500", textDecoration: "none" }}>Fashion Accessories </a></li>
+                                                <li className="men-products">
+                                                    <a href="" style={{ color: "black", textDecoration: "none" }}>
+                                                        Wallets
+                                                    </a>
+                                                </li>
+
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Belts</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Perfumes & Body Mists</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Trimmers</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Deodorants</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none", paddingRight: "1rem" }}>Ties, Cuffinks & Pockets Square</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Accessories Gift sets</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Caps & Hats</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Mufflers,Scarves & Gloves</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Phone Case</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Rings & Wristwear</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Helmets</a></li>
+                                            </ul>
+
+                                            <ul className='sub-men-list2'>
+                                                <li style={{ fontWeight: "500", marginBottom: "1.3rem", marginTop: "1rem" }}>
+                                                    <a href=" " className='head-topic-2' style={{ fontWeight: "500", textDecoration: "none" }}>Bags & Backpacks</a>
+                                                </li>
+                                            </ul>
+
+                                            <ul className='sub-men-list2'>
+                                                <li className='head-topic-2' style={{ fontWeight: "500" }}>
+                                                    <a href=" " style={{ color: "rgb(248, 2, 84)", fontWeight: "500", textDecoration: "none" }}>Luggages & Trolleys</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+
+                                        {/* ==========================================fashion Accsssories ends=========================================== */}
+                                    </section>
+                                </ul>
+                            </ul>
+
+                            {/* ==========================================================ul-men-list ends====================================== */}
+
+
+
+                            {/*  =============================================ul-women list starts============================================= */}
+
+                            <ul className='ul-Men' style={{ height: "10vh" }}>
+
+                                <li className='headp1 mt-4'>WOMAN</li>
+
+                                <ul className="ul-women-list" style={{ marginLeft: "-6rem" }}>
+                                    <section className='Men-wear-sec'>
+
+
+                                        <div className='women-clothing-list'>
+                                            <ul className='sub-men-list'>
+                                                <li className='head-topic-1' style={{ marginBottom: "5px" }}><a href=""> Indian & Fusion Wear</a></li>
+                                                <li className="men-products"><a href="">Kurtas & suits</a></li>
+                                                <li className="men-products"><a href="">Kurtis,Tunics & Tops</a></li>
+                                                <li className="men-products"><a href="">Sarees</a></li>
+                                                <li className="men-products"><a href="">Ethnic Wear</a></li>
+                                                <li className='men-products'><a href="">Leggings,Salwars & Churidars</a></li>
+                                                <li className="men-products"><a href="">Skirts & Palazzos</a></li>
+                                                <li className="men-products"><a href="">Dress Materials</a></li>
+                                                <li className="men-products"><a href="">Lehenga Cholis</a></li>
+                                                <li className="men-products"><a href="">Dupattas & Shawls</a></li>
+                                                <li className="men-products"><a href="">Jackets</a></li>
+                                            </ul>
+                                            {/* ==========================top wear ends======================== */}
+
+                                            {/* =============================Indian & festive wear starts======================= */}
+                                            <ul className='sub-men-list'>
+                                                <li className='head-topic-1' style={{ marginBottom: "5px", marginTop: "2rem" }}><a href="">Belts, Scarves & More</a></li>
+                                            </ul>
+
+                                            <ul className='sub-men-list'>
+                                                <li className='head-topic-1' style={{ marginBottom: "5px", marginTop: "1rem" }}><a href="">Watches & Wearables</a></li>
+                                            </ul>
+
+
+                                        </div>
+
+                                        {/*=======================================================Indian & festive wear ends======================= */}
+
+                                        {/* ==================================Western Wear=================================== */}
+                                        <div className="women-clothing-list">
+                                            <ul className='sub-men-list2'>
+                                                <li className='head-topic-1' style={{ marginBottom: "5px" }}><a href="">Western Wear</a></li>
+                                                <li className="men-products"><a href="">Dresses</a></li>
+                                                <li className="men-products"><a href="">Tops</a></li>
+                                                <li className="men-products"><a href="">T-shirts</a></li>
+                                                <li className="men-products"><a href="">Trouser & Capris</a></li>
+                                                <li className="men-products"><a href="">Shorts & Skirts</a></li>
+                                                <li className="men-products"><a href="">Co-ords</a></li>
+                                                <li className="men-products"><a href="">Playsuits</a></li>
+                                                <li className="men-products"><a href="">Jumpsuits</a></li>
+                                                <li className="men-products"><a href="">Shrugs</a></li>
+                                                <li className="men-products"><a href="">Sweaters & Sweatshirts</a></li>
+                                                <li className="men-products"><a href="">Jackets & coats</a></li>
+                                                <li className="men-products"><a href="">Blazers & Waistcoats</a></li>
+                                            </ul>
+
+                                            <ul className='head-topic-1'>
+                                                <li style={{ fontWeight: "500", marginBottom: "2rem", marginTop: "1rem" }}>
+                                                    <a href=" " style={{ textDecoration: "none" }}>Plus Size</a>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+
+
+                                        {/*=======================================Western wear ends=================================== */}
+
+
+                                        {/* ======================================footewear starts========================================== */}
+
+
+                                        <div className="women-clothing-list">
+
+                                            <ul className='sub-men-list2'>
+                                                <li className='head-topic-1' style={{ marginBottom: "5px" }}><a href=""  style={{  textDecoration: "none" }}>Maternity </a></li>
+
+                                                <li className='head-topic-1' style={{ marginBottom: "5px" }}><a href=""  style={{  textDecoration: "none" }}>Sunglasses & Frames</a></li>
+
+
+                                                <li className='head-topic-1' style={{ marginBottom: "5px" }}><a href=""  style={{  textDecoration: "none" }}>Footerwear </a></li>
+                                                <li className="men-products">
+                                                    <a href="" style={{ color: "black", textDecoration: "none" }}>
+                                                        Flats
+                                                    </a>
+                                                </li>
+
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Casual Shoes</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Heels</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Boots</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Sports Shoes & FLoters</a></li>
+
+                                                {/* ======================================Sports & Active Wear=========================== */}
+                                                <li className='head-topic-1' style={{ marginBottom: "5px", marginTop: "1rem" }}><a href=""  style={{  textDecoration: "none" }}>Sports & Active Wear</a></li>
+                                                <li className="men-products">
+                                                    <a href="" style={{ color: "black", textDecoration: "none" }}>
+                                                        Clothing
+                                                    </a>
+                                                </li>
+
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Footerwear</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Sports Accessories</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Sports Equipment</a></li>
+                                            </ul>
+
+
+
+
+
+                                        </div>
+
+                                        {/* ======================================footewear ends========================================== */}
+
+                                        {/* ==========================================Lingerie & sleepwear============================================ */}
+                                        <div className="women-clothing-list">
+
+
+                                            <ul className='sub-men-list2'>
+                                                <li className='head-topic-1' style={{ marginBottom: "5px" }}><a href=""  style={{  textDecoration: "none" }}>Lingerie & Sleepwear</a></li>
+                                                <li className="men-products">
+                                                    <a href="" style={{ color: "black", textDecoration: "none" }}>
+                                                        Bra
+                                                    </a>
+                                                </li>
+
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Brief</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Shapewear</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Sleepwear & Loungewear</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Swimwear</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Camisol & Thermals</a></li>
+                                            </ul>
+
+                                            {/* ============================Beauty & Personal Care========================== */}
+
+                                            <ul className='sub-men-list2'>
+                                                <li className='head-topic-1' style={{ marginBottom: "5px", marginTop: "0.8rem" }}><a href="" style={{  textDecoration: "none" }}>Beauty & Personal Care</a></li>
+                                                <li className="men-products">
+                                                    <a href="" style={{ color: "black", textDecoration: "none" }}>
+                                                        Makeup
+                                                    </a>
+                                                </li>
+
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Skincare</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Premium Beauty</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Lipstick</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Fragrances</a></li>
+                                            </ul>
+
+
+
+                                        </div>
+
+
+                                        {/* ==========================================Lingerie & sleepwear============================================ */}
+
+                                        {/* ==========================================Gadgets Jewellery Backpacks=========================================== */}
+                                        <div className="women-clothing-list">
+
+                                            <ul className='sub-men-list2'>
+                                                <li className='head-topic-1' style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-1' style={{ fontWeight: "500", textDecoration: "none" }}>Gadgets </a></li>
+                                                <li className="men-products">
+                                                    <a href="" style={{ color: "black", textDecoration: "none" }}>
+                                                        Smart Wearables
+                                                    </a>
+                                                </li>
+
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Fitness Gadget</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Headphones</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Speakers</a></li>
+                                            </ul>
+
+
+                                            <ul className='sub-men-list2'>
+                                                <li className='head-topic-1' style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-1' style={{ fontWeight: "500", textDecoration: "none" }}>Jewellery </a></li>
+                                                <li className="men-products">
+                                                    <a href="" style={{ color: "black", textDecoration: "none" }}>
+                                                        Fashion Jewellery
+                                                    </a>
+                                                </li>
+
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Fine Jewellery</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Earrning</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Speakers</a></li>
+                                            </ul>
+
+                                            <ul className='sub-men-list2'>
+                                                <li className='head-topic-1' style={{  marginTop: "1rem" }}>
+                                                    <a href=" "  style={{  textDecoration: "none" }}>Backpacks</a>
+                                                </li>
+                                            </ul>
+
+                                            <ul className='sub-men-list2'>
+                                                <li className='head-topic-1' style={{  marginTop: "1rem" }}>
+                                                    <a href=" "  style={{  textDecoration: "none" }}>Handbags,Bags & wallets</a>
+                                                </li>
+                                            </ul>
+
+                                            <ul className='sub-men-list2'>
+                                                <li className='head-topic-1' style={{  marginTop: "1rem" }}>
+                                                    <a href=" "  style={{  textDecoration: "none" }}>Luggages & Trolleys</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+
+                                        {/* ==========================================fashion Accsssories ends=========================================== */}
+                                    </section>
+                                </ul>
+                            </ul>
+                            {/* =========================== */}
+
+                            {/* ====================ul-women list ends================ */}
+
+
+                            {/* ========================ul-kids-list starts================================================ */}
+
+                            <ul className='ul-Men' style={{ height: "10vh" }}>
+
+                                <li className='headp1 mt-4'>KIDS</li>
+
+
+
+                                <ul className="ul-kids-list" style={{ marginLeft: "-10rem" }}>
+                                    <section className='Men-wear-sec'>
+
+
+                                        <div className='boys-clothing-list'>
+                                            <ul className='sub-men-list'>
+                                                <li className='head-topic-3' style={{ fontWeight: "500", marginBottom: "5px" }}>Boys Clothings</li>
+                                                <li className="men-products"><a href="">T-shirts</a></li>
+                                                <li className="men-products"><a href="">Shirts</a></li>
+                                                <li className="men-products"><a href="">Shorts</a></li>
+                                                <li className="men-products"><a href="">Jeans</a></li>
+                                                <li className='men-products'><a href="">Trousers</a></li>
+                                                <li className="men-products"><a href="">Clothing Sets</a></li>
+                                                <li className="men-products"><a href="">Ethnic Wear</a></li>
+                                                <li className="men-products"><a href="">Track Pants & Pyjamas</a></li>
+                                                <li className="men-products"><a href="">Jacket,Sweater & Sweatshirts</a></li>
+                                                <li className="men-products"><a href="">Party Wear</a></li>
+                                                <li className="men-products"><a href="">InnerWear & Thermals</a></li>
+                                                <li className="men-products"><a href="">Nightwear & Loungewear</a></li>
+                                                <li className="men-products"><a href="">Value Packs</a></li>
+
+                                            </ul>
+                                        </div>
+
+
+                                        {/* ==========================Boys clothings ends======================== */}
+
+
+
+
+                                        {/* ==================================Girls Clothing starts=================================== */}
+                                       
+                                        <div className="girls-clothing-div">
+
+                                            <ul className='sub-men-list2'>
+                                                <li style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-3' style={{ fontWeight: "500", textDecoration: "none" }}>Girls Clothing </a></li>
+                                                <li className="men-products">
+                                                    <a href="" style={{ color: "black", textDecoration: "none" }}>
+                                                        Dresses
+                                                    </a>
+                                                </li>
+
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Tops</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Tshirts</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Clothing Sets</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Lehenga Choli</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Kurta Sets</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Party wear</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Dungarees & Jumpsuits</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Skirts & shorts</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Tights & Leggings</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Jenas,Trousers & Capris</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Jackets,Sweaters & Sweatshirts</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>InnerWear & Thermals</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Nightwear & Loungwear</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Value Packs</a></li>
+                                            </ul>
+                                        </div>
+                                        {/* ==================================Girls Clothing ends=================================== */}
+                                        
+
+                                        {/* ======================================Footwear starts============================================= */}
+                                        <div className="foot-wear-div">
+
+                                            <ul className='sub-men-list2'>
+                                                <li style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-3' style={{ fontWeight: "500", textDecoration: "none" }}>Footwear</a></li>
+                                                <li className="men-products">
+                                                    <a href="" style={{ color: "black", textDecoration: "none" }}>
+                                                        Casual Shoes
+                                                    </a>
+                                                </li>
+
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Flipflops</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Sports Shoes</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Flats</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Sandals</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Heels</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Schools Shoes</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Scoks</a></li>
+                                            </ul>
+
+
+                                            {/* =============================================Toys & Games Starts===================================== */}
+
+                                            <ul className='sub-men-list2'>
+                                                <li style={{ fontWeight: "500", marginBottom: "5px",marginTop:"1.5rem" }}><a href="" className='head-topic-3' style={{  textDecoration: "none" }}>Toys & Games</a></li>
+                                                <li className="men-products">
+                                                    <a href="" style={{ color: "black", textDecoration: "none" }}>
+                                                        Learning & Development
+                                                    </a>
+                                                </li>
+
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Activity Toys</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Soft Toys</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Action Figure Player</a></li>
+                                            </ul>
+
+                                            {/* ================================================Toys & Games ends========================================== */}
+
+                                        </div>
+                                            {/* ======================================Footwear starts============================================= */}
+
+                                        
+
+
+                                        {/* ========================================Infants starts============================================= */}
+
+
+                                        <div className="infants-div">
+
+                                            <ul className='sub-men-list2'>
+                                                <li style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-3' style={{ fontWeight: "500", textDecoration: "none" }}>Infants</a></li>
+                                                <li className="men-products">
+                                                    <a href="" style={{ color: "black", textDecoration: "none" }}>
+                                                        Bodysuits
+                                                    </a>
+                                                </li>
+
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Rompers & Sleepsuits</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Clothing Sets</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Tshirts & Tops</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Dresses</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Bottom Wear</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Writer Wear</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Innerwear & Sleepwear</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Infant Care</a></li>
+                                            </ul>
+
+
+                                            <ul className='sub-men-list2'>
+                                                <li style={{ fontWeight: "500", marginBottom: "1.3rem", marginTop: "1rem" }}>
+                                                    <a href=" " className='head-topic-3' style={{ fontWeight: "500", textDecoration: "none" }}>Home & Bath</a>
+                                                </li>
+                                            </ul>
+
+                                            <ul className='sub-men-list2'>
+                                                <li className='head-topic-3' style={{ fontWeight: "500" }}>
+                                                    <a href="" className='head-topic-3' style={{ fontWeight: "500", textDecoration: "none" }}>Personal Care</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        {/* ======================================================Infants ends============================================== */}
+
+
+
+                                        {/* ======================================================Kids Accessories Starts================================================ */}
+                                        <div className="kids-accessories-div">
+
+                                            <ul className='sub-men-list2'>
+                                                <li style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-3' style={{ fontWeight: "500", textDecoration: "none" }}>Kids Accessories</a></li>
+                                                <li className="men-products">
+                                                    <a href="" style={{ color: "black", textDecoration: "none" }}>
+                                                        Bags & Backpacks
+                                                    </a>
+                                                </li>
+
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Watches</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Jewellery & Hair accessories</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Sunglasses</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Masks & Protective Gear</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Caps & Hats</a></li>
+                                            </ul>
+
+                                            {/* =============================================Toys & Games Starts===================================== */}
+
+
+                                                {/* =============================================Brands Starts========================================== */}
+                                            <ul className='sub-men-list2'>
+                                                <li style={{ fontWeight: "500", marginBottom: "5px", marginTop: "1.5rem" }}><a href="" className='head-topic-3' style={{ fontWeight: "500", textDecoration: "none" }}>Brands</a></li>
+                                                <li className="men-products">
+                                                    <a href="" style={{ color: "black", textDecoration: "none" }}>
+                                                        H&M
+                                                    </a>
+                                                </li>
+
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Max Kids</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Pantaloons</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none", paddingRight: "1.1rem" }}>United Color Of Benetton Kids</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Yk</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>U.S.Polo Assn.Kids</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Mothercare</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Hrx</a></li>
+                                            </ul>
+
+
+                                            {/* =============================================Brands Ends========================================== */}
+
+                                            {/* ================================================Toys & Games ends========================================== */}
+
+                                        </div>
+
+
+                                        {/* ======================================================Kids Accessories ends================================================ */}
+                                    </section>
+                                </ul>
+                            </ul>
+                            {/* ============================== */}
+
+
+                            {/* ========================ul-kids-list ends================================================  */}
+
+                            <ul style={{ height: "10vh" }}>
+                                <li className='headp1 mt-4'>HOME & LIVING</li>
+                            </ul>
+                            {/* ========================================= */}
+
+                            <ul style={{ height: "10vh" }}>
+                                <li className='headp1 mt-4'>BEAUTY</li>
+                            </ul>
+                            {/* ================================================== */}
+
+                            <ul style={{ height: "10vh" }}>
+                                <li className='headp1 mt-4'>STUDIO</li>
+                            </ul>
+
+
+                            {/* ======================================================= */}
+                        </div>
                         {/* ===================================== */}
-                        <div className='mt-3 d-flex ' style={{ width: "45%", height: "8vh" }}>
+                        <div className=' d-flex ' style={{ width: "100%", height: "10vh" }}>
+                            <input type="search" className='form-control h-75 w-100' placeholder='Search for products,brands and more' />
 
 
-                            <div className='w-25 mx-3  w-75'>
-                                <input type="search" className='form-control' placeholder='Search for products,brands and more' />
-                            </div>
-
-                            <div className=' mx-3'>
+                            <div className=' mx-3' style={{ cursor: "pointer" }}>
                                 <span className="material-symbols-outlined mx-2">
                                     person
                                 </span>
                                 <p className='fs-6'>Profile</p>
                             </div>
 
-                            <div className='  mx-3'>
+                            <div className='  mx-3' style={{ cursor: "pointer" }}>
                                 <span className="material-symbols-outlined mx-2">
                                     favorite
                                 </span>
                                 <p className='fs-6'>Wishlist</p>
                             </div>
 
-                            <div className=' mx-3'>
+                            <div className=' mx-3' style={{ cursor: "pointer" }}>
                                 <span className="material-symbols-outlined ">
                                     shopping_bag
                                 </span>
@@ -136,9 +716,6 @@ function Header() {
                         {/* ============================== */}
 
                     </div>
-
-                    {/* ========================== */}
-
                 </div>
 
             </section>

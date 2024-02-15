@@ -1,14 +1,219 @@
-.headp1{
-    font-size: 0.8rem;
+.headp1 {
+    font-size: 0.9rem;
     font-weight: 700;
-    margin-left: 3%;
-    margin-top: 1.5%;
-} 
-.headimg1{
-width: 4vw;
- margin-left: 1rem;
+    cursor: pointer;
 }
-.sidebar{
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.headp1:hover {
+    color: orangered;
+    transition: ease 0.2s;
+}
+
+.divp1 {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.section-header {
+    position: fixed;
+    top: 0;
+    box-shadow: 3px 3px 8px grey;
+    width: 100%;
+    height: 10vh;
+}
+
+.headimg1 {
+    width: 4vw;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sidebar {
     display: none;
     visibility: hidden;
 }
+
+
+/* ================================================ul-Men starts================================================== */
+.top-wear-div {
+    width: 18%;
+}
+
+.ul-Men {
+    height: 10vh;
+}
+
+.ul-Men-list {
+    display: none;
+    background-color: rgb(171, 166, 166);
+    margin-top: 1.8%;
+    width: 80%;
+}
+
+ul.ul-Men:hover .headp1 {
+    color: orangered;
+}
+
+.ul-Men:hover .ul-Men-list {
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+}
+
+.ul-mensub-list {
+    background-color: white;
+}
+
+.men-products:hover {
+    color: black;
+    font-weight: 700;
+    /* transform: scale(1.05); */
+    transition: ease 0.2s;
+}
+
+.men-products a {
+    color: black;
+    /* font-weight: 500; */
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.men-products {
+    font-size: 13px;
+    color: black;
+    /* font-weight: 500; */
+}
+
+/* .sub-men-list2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    width: 95%;
+    border: 1px solid black;
+} */
+.Men-wear-sec {
+    display: flex;
+    background-color: white;
+    width: 97%;
+}
+.head-topic-2 {
+    color: rgb(248, 2, 84);
+}
+
+.head-topic-3 {
+    color: orangered;
+}
+
+/* ================================================ul-Men ends================================================== */
+
+/* ================================================Women list starts================================================== */
+.ul-women-list {
+    display: none;
+    background-color: rgb(171, 166, 166);
+    margin-top: 1.8%;
+    width: 80%;
+}
+.head-topic-1 a {
+    text-decoration: none;
+    color: rgb(243, 93, 118);
+    font-weight: 500;
+}
+
+.ul-Men:hover .ul-women-list{
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+}
+
+.women-clothing-list {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.girls-clothing-div {
+    width: 20%;
+}
+
+.foot-wear-div {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+}
+
+.infants-div {
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+}
+
+.kids-accessories-div {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+}
+
+
+
+/* ================================================Women list ends================================================== */
+
+
+
+/* ================================================Kidslist starts================================================== */
+.ul-kids-list {
+    display: none;
+    background-color: rgb(171, 166, 166);
+    margin-top: 1.8%;
+    width: 80%;
+}
+
+.ul-Men:hover .ul-kids-list {
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+}
+
+.boys-clothing-list{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.girls-clothing-div {
+    width: 20%;
+}
+
+.foot-wear-div {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+}
+
+.infants-div {
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+}
+
+.kids-accessories-div {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+}
+
+/* ================================================Kids list ends================================================== */
