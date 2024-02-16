@@ -93,17 +93,26 @@ ul.ul-Men:hover .headp1 {
     /* font-weight: 500; */
 }
 
-/* .sub-men-list2{
-    display: flex;
-    flex-direction: column;
-    margin-left: 2rem;
-    width: 95%;
-    border: 1px solid black;
-} */
 .Men-wear-sec {
     display: flex;
     background-color: white;
     width: 97%;
+}
+
+
+/* ================================================ul-Men ends================================================== */
+
+
+
+/* ===================================================HEAD TOPICS COLORS STARTS============================================ */
+
+
+
+
+.head-topic-1 a {
+    text-decoration: none;
+    color: rgb(243, 93, 118);
+    font-weight: 500;
 }
 .head-topic-2 {
     color: rgb(248, 2, 84);
@@ -112,8 +121,10 @@ ul.ul-Men:hover .headp1 {
 .head-topic-3 {
     color: orangered;
 }
-
-/* ================================================ul-Men ends================================================== */
+.head-topic-4{
+    color: gold;
+}
+/* ===================================================HEAD TOPICS COLORS ENDS============================================ */
 
 /* ================================================Women list starts================================================== */
 .ul-women-list {
@@ -190,9 +201,57 @@ ul.ul-Men:hover .headp1 {
     flex-direction: column;
     width: 20%;
 }
+.foot-wear-div {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+}
 
-.girls-clothing-div {
+.infants-div {
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+}
+
+.kids-accessories-div {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+}
+
+/* ================================================Kids list ends================================================== */
+
+
+
+/* ===================================================Ul Home & living Starts============================================= */
+.ul-Home-Living-list{
+    display: none;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1.8%;
+    width: 80%;
+    margin-left: -15rem;
+}
+.ul-Men:hover .ul-Home-Living-list {
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+}
+.boys-clothing-list {
+    display: flex;
+    flex-direction: column;
     width: 20%;
+}
+.home-living-div {
+    width: 26%;
+    background-color: white;
+}
+
+.home-living-div2 {
+    width: 22%;
+    background-color: rgb(230, 230, 230);
 }
 
 .foot-wear-div {
@@ -216,4 +275,4 @@ ul.ul-Men:hover .headp1 {
     justify-items: left;
 }
 
-/* ================================================Kids list ends================================================== */
+ /* ===================================================Ul Home & living Starts============================================= */
