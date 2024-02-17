@@ -51,7 +51,7 @@ function Header() {
                                     <section className='Men-wear-sec'>
 
 
-                                        <div className='top-wear-div'>
+                                        <div className='men-list-div'>
                                             <ul className='sub-men-list'>
                                                 <li style={{ color: "rgb(248, 2, 84)", fontWeight: "500", marginBottom: "5px" }}>Topwear</li>
                                                 <li className="men-products">T-shirts</li>
@@ -79,7 +79,7 @@ function Header() {
                                         {/* =============================Indian & festive wear ends======================= */}
 
                                         {/* ==================================Bottom wear starts=================================== */}
-                                        <div className="Bottom-wear-div">
+                                        <div className="men-list-div2">
                                             <ul className='sub-men-list2'>
                                                 <li style={{ color: "rgb(248, 2, 84)", fontWeight: "500", marginBottom: "5px" }}>Bottomwear</li>
                                                 <li className="men-products">Jeans</li>
@@ -118,7 +118,7 @@ function Header() {
                                         {/* ======================================footewear starts========================================== */}
 
 
-                                        <div className="Bottom-wear-div">
+                                        <div className="men-list-div">
 
                                             <ul className='sub-men-list2'>
                                                 <li style={{ color: "rgb(248, 2, 84)", fontWeight: "500", marginBottom: "5px" }}><a href="" style={{ color: "rgb(248, 2, 84)", fontWeight: "500", textDecoration: "none" }}>Footerwear </a></li>
@@ -158,7 +158,7 @@ function Header() {
                                         {/* ======================================footewear ends========================================== */}
 
                                         {/* ==========================================sports and gadgets============================================ */}
-                                        <div className="Bottom-wear-div">
+                                        <div className="men-list-div2">
 
 
                                             <ul className='sub-men-list2'>
@@ -198,7 +198,7 @@ function Header() {
                                         {/* ==========================================sports and gadgets============================================ */}
 
                                         {/* ==========================================fashion Accsssories starts=========================================== */}
-                                        <div className="Bottom-wear-div">
+                                        <div className="men-list-div">
 
                                             <ul className='sub-men-list2'>
                                                 <li style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-2' style={{ fontWeight: "500", textDecoration: "none" }}>Fashion Accessories </a></li>
@@ -254,7 +254,7 @@ function Header() {
                                     <section className='Men-wear-sec'>
 
 
-                                        <div className='women-clothing-list'>
+                                        <div className='women-list-div'>
                                             <ul className='sub-men-list'>
                                                 <li className='head-topic-1' style={{ marginBottom: "5px" }}><a href=""> Indian & Fusion Wear</a></li>
                                                 <li className="men-products"><a href="">Kurtas & suits</a></li>
@@ -285,7 +285,7 @@ function Header() {
                                         {/*=======================================================Indian & festive wear ends======================= */}
 
                                         {/* ==================================Western Wear=================================== */}
-                                        <div className="women-clothing-list">
+                                        <div className="women-list-div2">
                                             <ul className='sub-men-list2'>
                                                 <li className='head-topic-1' style={{ marginBottom: "5px" }}><a href="">Western Wear</a></li>
                                                 <li className="men-products"><a href="">Dresses</a></li>
@@ -317,7 +317,7 @@ function Header() {
                                         {/* ======================================footewear starts========================================== */}
 
 
-                                        <div className="women-clothing-list">
+                                        <div className="women-list-div">
 
                                             <ul className='sub-men-list2'>
                                                 <li className='head-topic-1' style={{ marginBottom: "5px" }}><a href="" style={{ textDecoration: "none" }}>Maternity </a></li>
@@ -359,7 +359,7 @@ function Header() {
                                         {/* ======================================footewear ends========================================== */}
 
                                         {/* ==========================================Lingerie & sleepwear============================================ */}
-                                        <div className="women-clothing-list">
+                                        <div className="women-list-div2">
 
 
                                             <ul className='sub-men-list2'>
@@ -401,7 +401,7 @@ function Header() {
                                         {/* ==========================================Lingerie & sleepwear============================================ */}
 
                                         {/* ==========================================Gadgets Jewellery Backpacks=========================================== */}
-                                        <div className="women-clothing-list">
+                                        <div className="women-list-div">
 
                                             <ul className='sub-men-list2'>
                                                 <li className='head-topic-1' style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-1' style={{ fontWeight: "500", textDecoration: "none" }}>Gadgets </a></li>
@@ -499,7 +499,7 @@ function Header() {
 
                                         {/* ==================================Girls Clothing starts=================================== */}
 
-                                        <div className="girls-clothing-div">
+                                        <div className="kid-list-div2">
 
                                             <ul className='sub-men-list2'>
                                                 <li style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-3' style={{ fontWeight: "500", textDecoration: "none" }}>Girls Clothing </a></li>
@@ -575,7 +575,7 @@ function Header() {
                                         {/* ========================================Infants starts============================================= */}
 
 
-                                        <div className="infants-div">
+                                        <div className="kid-list-div2">
 
                                             <ul className='sub-men-list2'>
                                                 <li style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-3' style={{ fontWeight: "500", textDecoration: "none" }}>Infants</a></li>
@@ -889,7 +889,7 @@ function Header() {
 
 
 
-                                <ul className="ul-Beauty-list">
+                                <ul className="ul-Beauty-list" style={{ marginLeft: "-23rem" }}>
                                     <section className='Men-wear-sec'>
 
 

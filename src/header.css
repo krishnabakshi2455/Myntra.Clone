@@ -55,9 +55,18 @@ a {
 
 .ul-Men-list {
     display: none;
-    background-color: rgb(171, 166, 166);
+    background-color: rgb(230, 230, 230);
     margin-top: 1.8%;
-    width: 80%;
+    width: 82%;
+}
+.men-list-div {
+    width: 26%;
+    background-color: white;
+}
+
+.men-list-div2 {
+    width: 23%;
+    background-color: rgb(230, 230, 230);
 }
 
 ul.ul-Men:hover .headp1 {
@@ -133,9 +142,18 @@ ul.ul-Men:hover .headp1 {
 /* ================================================Women list starts================================================== */
 .ul-women-list {
     display: none;
-    background-color: rgb(171, 166, 166);
+    background-color: rgb(230, 230, 230);
     margin-top: 1.8%;
     width: 80%;
+}
+.women-list-div {
+    width: 26%;
+    background-color: white;
+}
+
+.women-list-div2 {
+    width: 23%;
+    background-color: rgb(230, 230, 230);
 }
 .head-topic-1 a {
     text-decoration: none;
@@ -189,11 +207,19 @@ ul.ul-Men:hover .headp1 {
 /* ================================================Kidslist starts================================================== */
 .ul-kids-list {
     display: none;
-    background-color: rgb(171, 166, 166);
+    background-color: rgb(230, 230, 230);
     margin-top: 1.8%;
-    width: 80%;
+    width: 85%;
+}
+.kid-list-div {
+    width: 26%;
+    background-color: white;
 }
 
+.kid-list-div2 {
+    width: 23%;
+    background-color: rgb(230, 230, 230);
+}
 .ul-Men:hover .ul-kids-list {
     display: flex;
     position: absolute;
@@ -233,7 +259,7 @@ ul.ul-Men:hover .headp1 {
 /* ===================================================Ul Home & living Starts============================================= */
 .ul-Home-Living-list{
     display: none;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(230, 230, 230);
     margin-top: 1.8%;
     width: 80%;
     margin-left: -15rem;
@@ -286,7 +312,7 @@ ul.ul-Men:hover .headp1 {
 
 .ul-Beauty-list {
     display: none;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(230, 230, 230);
     margin-top: 1.8%;
     width: 80%;
     margin-left: -15rem;
