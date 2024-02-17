@@ -679,7 +679,7 @@ function Header() {
                                 <ul className="ul-Home-Living-list" >
                                     <section className='Men-wear-sec'>
 
-                                    {/* =================================BED LINE & FURNISHING STARTS================================================ */}
+                                        {/* =================================BED LINE & FURNISHING STARTS================================================ */}
                                         <div className='home-living-div'>
                                             <ul className='sub-men-list'>
                                                 <li className='head-topic-4' style={{ fontWeight: "500", marginBottom: "5px" }}>Bed Line & Furnishing</li>
@@ -696,7 +696,7 @@ function Header() {
                                             </ul>
 
                                             <ul className='sub-men-list'>
-                                                <li className='head-topic-4' style={{ fontWeight: "500", marginBottom: "5px",marginTop:"1rem" }}>Flooring</li>
+                                                <li className='head-topic-4' style={{ fontWeight: "500", marginBottom: "5px", marginTop: "1rem" }}>Flooring</li>
                                                 <li className="men-products"><a href="">Floor Runners</a></li>
                                                 <li className="men-products"><a href="">Carpets</a></li>
                                                 <li className="men-products"><a href="">Floor Mats & Dhuries</a></li>
@@ -732,7 +732,7 @@ function Header() {
                                             {/* =======================================Lamps & Lighting STARTS=========================================== */}
 
                                             <ul className='sub-men-list2'>
-                                                <li style={{ fontWeight: "500", marginBottom: "5px",marginTop:"2rem" }}><a href="" className='head-topic-4' style={{ fontWeight: "500", textDecoration: "none" }}>Lamps & Lighting</a></li>
+                                                <li style={{ fontWeight: "500", marginBottom: "5px", marginTop: "2rem" }}><a href="" className='head-topic-4' style={{ fontWeight: "500", textDecoration: "none" }}>Lamps & Lighting</a></li>
                                                 <li className="men-products">
                                                     <a href="" style={{ color: "black", textDecoration: "none" }}>
                                                         Floor Lamp
@@ -814,26 +814,26 @@ function Header() {
                                                 <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Table Cover & Furnishing</a></li>
 
 
-                                            {/* ==================================================ul-Storage Starts=============================================== */}
-                                                
-                                            <li style={{ fontWeight: "500", marginBottom: "5px",marginTop:"1rem" }}><a href="" className='head-topic-4' style={{ fontWeight: "500", textDecoration: "none" }}>Kitchen & Table</a></li>
-                                            <li className="men-products">
-                                                <a href="" style={{ color: "black", textDecoration: "none" }}>
-                                                    Bins
-                                                </a>
-                                            </li>
+                                                {/* ==================================================ul-Storage Starts=============================================== */}
 
-                                            <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Hangers</a></li>
-                                            <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Organisers</a></li>
-                                            <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Hooks & Holders</a></li>
-                                            <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Laundry Bags</a></li>
+                                                <li style={{ fontWeight: "500", marginBottom: "5px", marginTop: "1rem" }}><a href="" className='head-topic-4' style={{ fontWeight: "500", textDecoration: "none" }}>Kitchen & Table</a></li>
+                                                <li className="men-products">
+                                                    <a href="" style={{ color: "black", textDecoration: "none" }}>
+                                                        Bins
+                                                    </a>
+                                                </li>
+
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Hangers</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Organisers</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Hooks & Holders</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Laundry Bags</a></li>
 
 
-                                            {/* ==================================================ul-Storage Ends=============================================== */}
+                                                {/* ==================================================ul-Storage Ends=============================================== */}
                                             </ul>
 
 
-                                            
+
                                         </div>
 
                                         {/* ======================================================ul-Kitchen & Tbable ends============================================== */}
@@ -841,7 +841,7 @@ function Header() {
 
                                         <div className="kids-accessories-div">
 
-                                           {/* =============================================Brands Starts========================================== */}
+                                            {/* =============================================Brands Starts========================================== */}
                                             <ul className='sub-men-list2'>
                                                 <li style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-3' style={{ fontWeight: "500", textDecoration: "none" }}>Brands</a></li>
                                                 <li className="men-products">
@@ -880,7 +880,7 @@ function Header() {
 
                             {/* ========================================= */}
 
-                            {/* ================================ul-Beauty starts===================================================== */}
+                            {/* ================================ul-BEAUTY STARTS===================================================== */}
 
                             <ul className='ul-Men' style={{ height: "10vh" }}>
                                 <li className='headp1 mt-4'>BEAUTY</li>
@@ -889,213 +889,221 @@ function Header() {
 
 
 
-                                <ul className="ul-Home-Living-list">
+                                <ul className="ul-Beauty-list">
                                     <section className='Men-wear-sec'>
 
 
-                                        <div className='boys-clothing-list'>
+                                        <div className='beauty-div'>
                                             <ul className='sub-men-list'>
-                                                <li className='head-topic-3' style={{ fontWeight: "500", marginBottom: "5px" }}>Boys Clothings</li>
-                                                <li className="men-products"><a href="">T-shirts</a></li>
-                                                <li className="men-products"><a href="">Shirts</a></li>
-                                                <li className="men-products"><a href="">Shorts</a></li>
-                                                <li className="men-products"><a href="">Jeans</a></li>
-                                                <li className='men-products'><a href="">Trousers</a></li>
-                                                <li className="men-products"><a href="">Clothing Sets</a></li>
-                                                <li className="men-products"><a href="">Ethnic Wear</a></li>
-                                                <li className="men-products"><a href="">Track Pants & Pyjamas</a></li>
-                                                <li className="men-products"><a href="">Jacket,Sweater & Sweatshirts</a></li>
-                                                <li className="men-products"><a href="">Party Wear</a></li>
-                                                <li className="men-products"><a href="">InnerWear & Thermals</a></li>
-                                                <li className="men-products"><a href="">Nightwear & Loungewear</a></li>
-                                                <li className="men-products"><a href="">Value Packs</a></li>
-
+                                                <li className='head-topic-5' style={{ fontWeight: "500", marginBottom: "5px" }}>Makeup</li>
+                                                <li className="men-products"><a href="">Lipstick</a></li>
+                                                <li className="men-products"><a href="">Lip Gloss</a></li>
+                                                <li className="men-products"><a href="">Lip Liner</a></li>
+                                                <li className="men-products"><a href="">Mascara</a></li>
+                                                <li className='men-products'><a href="">Eyeliner</a></li>
+                                                <li className="men-products"><a href="">Kajal</a></li>
+                                                <li className="men-products"><a href="">Eyeshadow</a></li>
+                                                <li className="men-products"><a href="">Foundation</a></li>
+                                                <li className="men-products"><a href="">Primer</a></li>
+                                                <li className="men-products"><a href="">Concealer</a></li>
+                                                <li className="men-products"><a href="">Compact</a></li>
+                                                <li className="men-products"><a href="">Nail Polish</a></li>
                                             </ul>
                                         </div>
 
 
-                                        {/* ==========================Boys clothings ends======================== */}
+                                        {/* ==========================MAKEUP ENDS======================== */}
 
 
 
 
-                                        {/* ==================================Girls Clothing starts=================================== */}
+                                        {/* ==================================SKINCARE,BATH & BODY STARTS=================================== */}
 
-                                        <div className="girls-clothing-div">
+                                        <div className="beauty-div2">
 
                                             <ul className='sub-men-list2'>
-                                                <li style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-3' style={{ fontWeight: "500", textDecoration: "none" }}>Girls Clothing </a></li>
+                                                <li style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-5' style={{ fontWeight: "500", textDecoration: "none" }}>Skincare,Bath & Body</a></li>
                                                 <li className="men-products">
                                                     <a href="" style={{ color: "black", textDecoration: "none" }}>
-                                                        Dresses
+                                                        Face Moisturiser
                                                     </a>
                                                 </li>
 
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Tops</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Tshirts</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Clothing Sets</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Lehenga Choli</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Kurta Sets</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Party wear</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Dungarees & Jumpsuits</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Skirts & shorts</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Tights & Leggings</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Jenas,Trousers & Capris</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Jackets,Sweaters & Sweatshirts</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>InnerWear & Thermals</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Nightwear & Loungwear</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Value Packs</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Cleanser</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Masks & Peel</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Sunscreen</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Serum</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Face Wash</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Eye Cream</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Lip Blam</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Body Lotion</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Body Wash</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Body Scrub</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Hand Cream</a></li>
+                                            </ul>
+
+
+
+                                            <ul className='sub-men-list2'>
+                                                <li style={{ fontWeight: "500", marginBottom: "5px", marginTop: "1rem" }}><a href="" className='head-topic-5' style={{ fontWeight: "500", textDecoration: "none" }}>Baby Care</a></li>
+                                                <li style={{ fontWeight: "500", marginBottom: "5px", marginTop: "1rem" }}><a href="" className='head-topic-5' style={{ fontWeight: "500", textDecoration: "none" }}>Masks</a></li>
                                             </ul>
                                         </div>
-                                        {/* ==================================Girls Clothing ends=================================== */}
+                                        {/* ==================================SKINCARE,BATH & BODY ENDS=================================== */}
 
 
-                                        {/* ======================================Footwear starts============================================= */}
+                                        {/* ======================================HAIR CARE============================================= */}
                                         <div className="foot-wear-div">
 
                                             <ul className='sub-men-list2'>
-                                                <li style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-3' style={{ fontWeight: "500", textDecoration: "none" }}>Footwear</a></li>
+                                                <li style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-5' style={{ fontWeight: "500", textDecoration: "none" }}>Hair Care</a></li>
                                                 <li className="men-products">
                                                     <a href="" style={{ color: "black", textDecoration: "none" }}>
-                                                        Casual Shoes
+                                                        Shampoo
                                                     </a>
                                                 </li>
 
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Flipflops</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Conditioner</a></li>
                                                 <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Sports Shoes</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Flats</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Sandals</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Heels</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Schools Shoes</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Scoks</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Hair Cream</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Hair Oil</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Hair Gel</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Hair Serum</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Hair Accessory</a></li>
                                             </ul>
 
 
-                                            {/* =============================================Toys & Games Starts===================================== */}
+                                            {/* =============================================FRAGRNACES STARTS===================================== */}
 
                                             <ul className='sub-men-list2'>
-                                                <li style={{ fontWeight: "500", marginBottom: "5px", marginTop: "1.5rem" }}><a href="" className='head-topic-3' style={{ textDecoration: "none" }}>Toys & Games</a></li>
+                                                <li style={{ fontWeight: "500", marginBottom: "5px", marginTop: "1.5rem" }}><a href="" className='head-topic-5' style={{ textDecoration: "none" }}>Fragrances</a></li>
                                                 <li className="men-products">
                                                     <a href="" style={{ color: "black", textDecoration: "none" }}>
-                                                        Learning & Development
+                                                        Perfume
                                                     </a>
                                                 </li>
 
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Activity Toys</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Soft Toys</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Action Figure Player</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Deodrant</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Body Mist</a></li>
                                             </ul>
 
-                                            {/* ================================================Toys & Games ends========================================== */}
+                                            {/* ================================================FRAGRANES ENDS========================================== */}
 
                                         </div>
-                                        {/* ======================================Footwear starts============================================= */}
+                                        {/* ======================================HAIR CARE ENDS============================================= */}
 
 
 
 
-                                        {/* ========================================Infants starts============================================= */}
+                                        {/* ========================================APPIANCE MEN GROOMING BEAUTY GIFTS STARTS============================================= */}
 
 
-                                        <div className="infants-div">
+                                        <div className="beauty-div2">
 
                                             <ul className='sub-men-list2'>
-                                                <li style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-3' style={{ fontWeight: "500", textDecoration: "none" }}>Infants</a></li>
+                                                <li style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-5' style={{ fontWeight: "500", textDecoration: "none" }}>Appliance</a></li>
                                                 <li className="men-products">
                                                     <a href="" style={{ color: "black", textDecoration: "none" }}>
-                                                        Bodysuits
+                                                        Hair Straightener
                                                     </a>
                                                 </li>
 
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Rompers & Sleepsuits</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Clothing Sets</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Tshirts & Tops</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Dresses</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Bottom Wear</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Writer Wear</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Innerwear & Sleepwear</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Infant Care</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Hair Dryer</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Epilator</a></li>
                                             </ul>
+
+                                            {/* ===========================================================APPLIANCES ENDS======================================================== */}
+
+                                            <ul className='sub-men-list2'>
+                                                <li style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-5' style={{ fontWeight: "500", textDecoration: "none" }}>Men's Grooming</a></li>
+                                                <li className="men-products">
+                                                    <a href="" style={{ color: "black", textDecoration: "none" }}>
+                                                        Trimmers
+                                                    </a>
+                                                </li>
+
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Beard Oil</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Hair Wax</a></li>
+                                              </ul>
+
+                                              {/* ===========================================================MEN'S GROOMING ENDS========================================================= */}
+
+
+                                            <ul className='sub-men-list2'>
+                                                <li style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-5' style={{ fontWeight: "500", textDecoration: "none" }}>Beauty Gift & Makeup Set</a></li>
+                                                <li className="men-products">
+                                                    <a href="" style={{ color: "black", textDecoration: "none" }}>
+                                                        Beauty Gift
+                                                    </a>
+                                                </li>
+
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Makeup Kit </a></li>
+                                                </ul>
+
+                                                {/* ==============================================================BEAUTY GIFT & MAKEUP SET=========================================== */}
 
 
                                             <ul className='sub-men-list2'>
                                                 <li style={{ fontWeight: "500", marginBottom: "1.3rem", marginTop: "1rem" }}>
-                                                    <a href=" " className='head-topic-3' style={{ fontWeight: "500", textDecoration: "none" }}>Home & Bath</a>
+                                                    <a href=" " className='head-topic-5' style={{ fontWeight: "500", textDecoration: "none" }}>Home & Bath</a>
                                                 </li>
                                             </ul>
 
                                             <ul className='sub-men-list2'>
                                                 <li className='head-topic-3' style={{ fontWeight: "500" }}>
-                                                    <a href="" className='head-topic-3' style={{ fontWeight: "500", textDecoration: "none" }}>Personal Care</a>
+                                                    <a href="" className='head-topic-5' style={{ fontWeight: "500", textDecoration: "none" }}>Personal Care</a>
                                                 </li>
                                             </ul>
                                         </div>
 
-                                        {/* ======================================================Infants ends============================================== */}
+                                        {/* ========================================APPIANCE MEN GROOMING BEAUTY GIFTS STARTS============================================= */}
 
 
-
-                                        {/* ======================================================Kids Accessories Starts================================================ */}
-                                        <div className="kids-accessories-div">
+                                        {/* ======================================================TOP BRANDS STARTS================================================ */}
+                                        <div className="beauty-div">
 
                                             <ul className='sub-men-list2'>
-                                                <li style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-3' style={{ fontWeight: "500", textDecoration: "none" }}>Kids Accessories</a></li>
+                                                <li style={{ fontWeight: "500", marginBottom: "5px" }}><a href="" className='head-topic-3' style={{ fontWeight: "500", textDecoration: "none" }}>Top Brands</a></li>
                                                 <li className="men-products">
                                                     <a href="" style={{ color: "black", textDecoration: "none" }}>
-                                                        Bags & Backpacks
+                                                        Lakme
                                                     </a>
                                                 </li>
 
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Watches</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Jewellery & Hair accessories</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Sunglasses</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Masks & Protective Gear</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Caps & Hats</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Maybelline</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>LOreal</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Philips</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Bath & Body Works</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>THE BODY SHOPS</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Biotique</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Mamaearth</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Nivea</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Lotus Herbals</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>LOreal Professionnel</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>KAMA AYURVEDDA</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>M.A.C</a></li>
+                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Forest Essentials</a></li>
                                             </ul>
-
-                                            {/* =============================================Toys & Games Starts===================================== */}
-
-
-                                            {/* =============================================Brands Starts========================================== */}
-                                            <ul className='sub-men-list2'>
-                                                <li style={{ fontWeight: "500", marginBottom: "5px", marginTop: "1.5rem" }}><a href="" className='head-topic-3' style={{ fontWeight: "500", textDecoration: "none" }}>Brands</a></li>
-                                                <li className="men-products">
-                                                    <a href="" style={{ color: "black", textDecoration: "none" }}>
-                                                        H&M
-                                                    </a>
-                                                </li>
-
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Max Kids</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Pantaloons</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none", paddingRight: "1.1rem" }}>United Color Of Benetton Kids</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Yk</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>U.S.Polo Assn.Kids</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Mothercare</a></li>
-                                                <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Hrx</a></li>
-                                            </ul>
-
-
-                                            {/* =============================================Brands Ends========================================== */}
-
-                                            {/* ================================================Toys & Games ends========================================== */}
-
-                                        </div>
-
-
-                                        {/* ======================================================Kids Accessories ends================================================ */}
+                                       </div>
                                     </section>
+                                            {/* =============================================TOP BRANDS ENDS========================================== */}
                                 </ul>
                             </ul>
+
+                            {/* ====================================ul-BEAUTY ENDDS========================================================== */}
+
                             {/* ================================================== */}
 
-                            {/* ====================================ul-beauty ends========================================================== */}
 
+                            {/* ========================================UL-STUDIO STARTS======================================================= */}
                             <ul style={{ height: "10vh" }}>
                                 <li className='headp1 mt-4'>STUDIO</li>
                             </ul>
 
 
                             {/* ======================================================= */}
+
+
                         </div>
                         {/* ===================================== */}
                         <div className=' d-flex ' style={{ width: "100%", height: "10vh" }}>
