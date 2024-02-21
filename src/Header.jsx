@@ -1024,9 +1024,9 @@ function Header() {
 
                                                 <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Beard Oil</a></li>
                                                 <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Hair Wax</a></li>
-                                              </ul>
+                                            </ul>
 
-                                              {/* ===========================================================MEN'S GROOMING ENDS========================================================= */}
+                                            {/* ===========================================================MEN'S GROOMING ENDS========================================================= */}
 
 
                                             <ul className='sub-men-list2'>
@@ -1038,9 +1038,9 @@ function Header() {
                                                 </li>
 
                                                 <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Makeup Kit </a></li>
-                                                </ul>
+                                            </ul>
 
-                                                {/* ==============================================================BEAUTY GIFT & MAKEUP SET=========================================== */}
+                                            {/* ==============================================================BEAUTY GIFT & MAKEUP SET=========================================== */}
 
 
                                             <ul className='sub-men-list2'>
@@ -1084,9 +1084,9 @@ function Header() {
                                                 <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>M.A.C</a></li>
                                                 <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Forest Essentials</a></li>
                                             </ul>
-                                       </div>
+                                        </div>
                                     </section>
-                                            {/* =============================================TOP BRANDS ENDS========================================== */}
+                                    {/* =============================================TOP BRANDS ENDS========================================== */}
                                 </ul>
                             </ul>
 
@@ -1105,17 +1105,62 @@ function Header() {
 
 
                         </div>
-                        {/* ===================================== */}
+                        {/* ================================================================================================================================= */}
+
+                        {/* ===============================================SEARCH INPUT STARTS=============================================================== */}
                         <div className=' d-flex ' style={{ width: "100%", height: "10vh" }}>
                             <input type="search" className='form-control h-75 w-100' placeholder='Search for products,brands and more' />
 
 
-                            <div className=' mx-3' style={{ cursor: "pointer" }}>
+
+                            {/* ===============================================SEARCH INPUT ends=============================================================== */}
+                            
+
+
+                            {/* ===================================================UL-PROFILE STARTS================================================================= */}
+                            <div className=' ul-profile'>
                                 <span className="material-symbols-outlined mx-2">
                                     person
                                 </span>
-                                <p className='fs-6'>Profile</p>
+                                <p className='profile-p'>Profile</p>
+
+                                <div className="ul-profile-list">
+
+                                    <ul className=''>
+                                        <li><a href="" className='ul-profile-h1'>Welcome</a></li>
+                                        <li style={{marginBottom:"1rem"}}>
+                                            <a href="" className="ul-profile-h2"> 
+                                                To access account and manage orders
+                                            </a>
+                                        </li>
+
+                                        <li className="" style={{marginBottom:"1rem"}}>
+                                            <a href="" className='login-page1' style={{ textDecoration: "none" }}>
+                                                LOGIN / SIGNUP 
+                                            </a>
+                                        </li>
+
+                                        <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Orders</a></li>
+                                        <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Wishlist</a></li>
+                                        <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Gift Cards</a></li>
+                                        <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Contact Us</a></li>
+                                        <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Myntra Insider</a></li>
+                                        
+                                        <li style={{width:"100%",backgroundColor:"lightgrey",height:"0.1vh",marginBottom:"1rem",marginTop:"1rem"}}></li>
+
+                                        <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Myntra Credit</a></li>
+                                        <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Coupons</a></li>
+                                        <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Saved Cards</a></li>
+                                        <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Saved VPA</a></li>
+                                        <li className="men-products"><a href="" style={{ color: "black", textDecoration: "none" }}>Saved Address</a></li>
+                                    </ul>
+                                </div>
+
+
+                                
                             </div>
+
+                            {/* ===================================================UL-PROFILE ENDS================================================================= */}
 
                             <div className='  mx-3' style={{ cursor: "pointer" }}>
                                 <span className="material-symbols-outlined mx-2">
