@@ -1,0 +1,41 @@
+.Form-header{
+    width: 100%;
+    height: 11vh;
+    display: flex;
+    box-shadow: 5px 5px 5px rgb(182, 181, 181);
+}
+.Form-div1{
+    display: flex;
+    align-items: center;
+    width: 40%;
+
+}
+.Form-semidiv2{
+    display: flex;
+    gap: 2rem;
+    margin-left: 5%;
+}
+.logo1{
+    width: 15%;
+}
+.ul-headtitle{
+    font-weight: 500;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.Form-div2{
+    margin-left: 10%;
+    width: 50%;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+
+}
+.Form-inputDiv{
+    width: 80%;
+}
+.Form-logodiv1{
+    display: flex;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}

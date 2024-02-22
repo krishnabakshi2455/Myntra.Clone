@@ -4,6 +4,7 @@ import Header from "./Header"
 import "./header.css"
 import "./header,mobile.css"
 import LoginForm from './LoginForm';
+import "./LoginForm.css"
 import 'boxicons'
 import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
@@ -23,7 +24,7 @@ root.render(
   // </React.StrictMode>
       <>
   <BrowserRouter>
-      <Header/>
+    <LoginForm/>
   </BrowserRouter>
   
   </>
